@@ -1,0 +1,55 @@
+.btn{
+  border-radius:5px;
+  border-width:0px;
+  box-sizing:border-box;
+  color:rgb(255, 255, 255);
+  display:inline-block;
+  font-family:Roboto, sans-serif;
+  font-size:15px;
+  height:36px;
+  letter-spacing:0.5px;
+  line-height:36px;
+  outline-color:rgb(255, 255, 255);
+  padding:0px 30px 0px 30px;
+  position:relative;
+  text-align:center;
+  text-transform:uppercase;
+  width:120px;
+}
+h3{
+  font-family: "Roboto Mono", Roboto, sans-serif;
+  opacity: 0.87;
+}
+.instructions-wrapper{
+  text-align: left;
+  display:inline-block;
+}
+.board-wrapper{
+  display:inline-block;
+}
+.next-piece-wrapper{
+  display:inline-block;
+}
+#app{
+  padding-top:25px;
+}
+@media (max-width: 768px) {
+  .btn{
+    width:100%;
+  }
+  .button-row .col-sm-4{
+    text-align: center;
+    padding: 10px
+  }
+}
+@media (min-width: 769px) {
+  .text-right-sm{
+      text-align: right;
+  }
+  .text-center-sm{
+    text-align: center;
+  }
+  .text-left-sm{
+    text-align: left;
+  }
+}

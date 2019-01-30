@@ -1,0 +1,7 @@
+#next-piece{
+  width:100px;
+  height:100px;
+}
+:host >>> cell .cell{
+  border:none;
+}
